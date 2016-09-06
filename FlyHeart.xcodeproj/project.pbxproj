@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB64BF151D755B7300B4BB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64BF141D755B7300B4BB9C /* main.m */; };
+		FB64BF181D755B7300B4BB9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64BF171D755B7300B4BB9C /* AppDelegate.m */; };
+		FB64BF1B1D755B7300B4BB9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64BF1A1D755B7300B4BB9C /* ViewController.m */; };
+		FB64BF1E1D755B7300B4BB9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB64BF1C1D755B7300B4BB9C /* Main.storyboard */; };
+		FB64BF201D755B7300B4BB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB64BF1F1D755B7300B4BB9C /* Assets.xcassets */; };
+		FB64BF231D755B7300B4BB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB64BF211D755B7300B4BB9C /* LaunchScreen.storyboard */; };
+		FB64BF2E1D755B7300B4BB9C /* FlyHeartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64BF2D1D755B7300B4BB9C /* FlyHeartTests.m */; };
+		FB64BF391D755B7300B4BB9C /* FlyHeartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64BF381D755B7300B4BB9C /* FlyHeartUITests.m */; };
+		FB64BF481D755B8000B4BB9C /* XBHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB64BF471D755B8000B4BB9C /* XBHeartFlyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB64BF2A1D755B7300B4BB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB64BF081D755B7300B4BB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB64BF0F1D755B7300B4BB9C;
+			remoteInfo = FlyHeart;
+		};
+		FB64BF351D755B7300B4BB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB64BF081D755B7300B4BB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB64BF0F1D755B7300B4BB9C;
+			remoteInfo = FlyHeart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB64BF101D755B7300B4BB9C /* FlyHeart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyHeart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB64BF141D755B7300B4BB9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB64BF161D755B7300B4BB9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB64BF171D755B7300B4BB9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB64BF191D755B7300B4BB9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB64BF1A1D755B7300B4BB9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB64BF1D1D755B7300B4BB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB64BF1F1D755B7300B4BB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB64BF221D755B7300B4BB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB64BF241D755B7300B4BB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB64BF291D755B7300B4BB9C /* FlyHeartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyHeartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB64BF2D1D755B7300B4BB9C /* FlyHeartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyHeartTests.m; sourceTree = "<group>"; };
+		FB64BF2F1D755B7300B4BB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB64BF341D755B7300B4BB9C /* FlyHeartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyHeartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB64BF381D755B7300B4BB9C /* FlyHeartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyHeartUITests.m; sourceTree = "<group>"; };
+		FB64BF3A1D755B7300B4BB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB64BF461D755B8000B4BB9C /* XBHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBHeartFlyView.h; sourceTree = "<group>"; };
+		FB64BF471D755B8000B4BB9C /* XBHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBHeartFlyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB64BF0D1D755B7300B4BB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB64BF261D755B7300B4BB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB64BF311D755B7300B4BB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB64BF071D755B7300B4BB9C = {
+			isa = PBXGroup;
+			children = (
+				FB64BF121D755B7300B4BB9C /* FlyHeart */,
+				FB64BF2C1D755B7300B4BB9C /* FlyHeartTests */,
+				FB64BF371D755B7300B4BB9C /* FlyHeartUITests */,
+				FB64BF111D755B7300B4BB9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB64BF111D755B7300B4BB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB64BF101D755B7300B4BB9C /* FlyHeart.app */,
+				FB64BF291D755B7300B4BB9C /* FlyHeartTests.xctest */,
+				FB64BF341D755B7300B4BB9C /* FlyHeartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB64BF121D755B7300B4BB9C /* FlyHeart */ = {
+			isa = PBXGroup;
+			children = (
+				FB64BF161D755B7300B4BB9C /* AppDelegate.h */,
+				FB64BF171D755B7300B4BB9C /* AppDelegate.m */,
+				FB64BF191D755B7300B4BB9C /* ViewController.h */,
+				FB64BF1A1D755B7300B4BB9C /* ViewController.m */,
+				FB64BF461D755B8000B4BB9C /* XBHeartFlyView.h */,
+				FB64BF471D755B8000B4BB9C /* XBHeartFlyView.m */,
+				FB64BF1C1D755B7300B4BB9C /* Main.storyboard */,
+				FB64BF1F1D755B7300B4BB9C /* Assets.xcassets */,
+				FB64BF211D755B7300B4BB9C /* LaunchScreen.storyboard */,
+				FB64BF241D755B7300B4BB9C /* Info.plist */,
+				FB64BF131D755B7300B4BB9C /* Supporting Files */,
+			);
+			path = FlyHeart;
+			sourceTree = "<group>";
+		};
+		FB64BF131D755B7300B4BB9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB64BF141D755B7300B4BB9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB64BF2C1D755B7300B4BB9C /* FlyHeartTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB64BF2D1D755B7300B4BB9C /* FlyHeartTests.m */,
+				FB64BF2F1D755B7300B4BB9C /* Info.plist */,
+			);
+			path = FlyHeartTests;
+			sourceTree = "<group>";
+		};
+		FB64BF371D755B7300B4BB9C /* FlyHeartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB64BF381D755B7300B4BB9C /* FlyHeartUITests.m */,
+				FB64BF3A1D755B7300B4BB9C /* Info.plist */,
+			);
+			path = FlyHeartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB64BF0F1D755B7300B4BB9C /* FlyHeart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB64BF3D1D755B7300B4BB9C /* Build configuration list for PBXNativeTarget "FlyHeart" */;
+			buildPhases = (
+				FB64BF0C1D755B7300B4BB9C /* Sources */,
+				FB64BF0D1D755B7300B4BB9C /* Frameworks */,
+				FB64BF0E1D755B7300B4BB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyHeart;
+			productName = FlyHeart;
+			productReference = FB64BF101D755B7300B4BB9C /* FlyHeart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB64BF281D755B7300B4BB9C /* FlyHeartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB64BF401D755B7300B4BB9C /* Build configuration list for PBXNativeTarget "FlyHeartTests" */;
+			buildPhases = (
+				FB64BF251D755B7300B4BB9C /* Sources */,
+				FB64BF261D755B7300B4BB9C /* Frameworks */,
+				FB64BF271D755B7300B4BB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB64BF2B1D755B7300B4BB9C /* PBXTargetDependency */,
+			);
+			name = FlyHeartTests;
+			productName = FlyHeartTests;
+			productReference = FB64BF291D755B7300B4BB9C /* FlyHeartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB64BF331D755B7300B4BB9C /* FlyHeartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB64BF431D755B7300B4BB9C /* Build configuration list for PBXNativeTarget "FlyHeartUITests" */;
+			buildPhases = (
+				FB64BF301D755B7300B4BB9C /* Sources */,
+				FB64BF311D755B7300B4BB9C /* Frameworks */,
+				FB64BF321D755B7300B4BB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB64BF361D755B7300B4BB9C /* PBXTargetDependency */,
+			);
+			name = FlyHeartUITests;
+			productName = FlyHeartUITests;
+			productReference = FB64BF341D755B7300B4BB9C /* FlyHeartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB64BF081D755B7300B4BB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李云飞";
+				TargetAttributes = {
+					FB64BF0F1D755B7300B4BB9C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FB64BF281D755B7300B4BB9C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FB64BF0F1D755B7300B4BB9C;
+					};
+					FB64BF331D755B7300B4BB9C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FB64BF0F1D755B7300B4BB9C;
+					};
+				};
+			};
+			buildConfigurationList = FB64BF0B1D755B7300B4BB9C /* Build configuration list for PBXProject "FlyHeart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB64BF071D755B7300B4BB9C;
+			productRefGroup = FB64BF111D755B7300B4BB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB64BF0F1D755B7300B4BB9C /* FlyHeart */,
+				FB64BF281D755B7300B4BB9C /* FlyHeartTests */,
+				FB64BF331D755B7300B4BB9C /* FlyHeartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB64BF0E1D755B7300B4BB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB64BF231D755B7300B4BB9C /* LaunchScreen.storyboard in Resources */,
+				FB64BF201D755B7300B4BB9C /* Assets.xcassets in Resources */,
+				FB64BF1E1D755B7300B4BB9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB64BF271D755B7300B4BB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB64BF321D755B7300B4BB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB64BF0C1D755B7300B4BB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB64BF1B1D755B7300B4BB9C /* ViewController.m in Sources */,
+				FB64BF181D755B7300B4BB9C /* AppDelegate.m in Sources */,
+				FB64BF151D755B7300B4BB9C /* main.m in Sources */,
+				FB64BF481D755B8000B4BB9C /* XBHeartFlyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB64BF251D755B7300B4BB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB64BF2E1D755B7300B4BB9C /* FlyHeartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB64BF301D755B7300B4BB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB64BF391D755B7300B4BB9C /* FlyHeartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB64BF2B1D755B7300B4BB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB64BF0F1D755B7300B4BB9C /* FlyHeart */;
+			targetProxy = FB64BF2A1D755B7300B4BB9C /* PBXContainerItemProxy */;
+		};
+		FB64BF361D755B7300B4BB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB64BF0F1D755B7300B4BB9C /* FlyHeart */;
+			targetProxy = FB64BF351D755B7300B4BB9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB64BF1C1D755B7300B4BB9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB64BF1D1D755B7300B4BB9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB64BF211D755B7300B4BB9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB64BF221D755B7300B4BB9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB64BF3B1D755B7300B4BB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB64BF3C1D755B7300B4BB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB64BF3E1D755B7300B4BB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyHeart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuhuixia.FlyHeart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB64BF3F1D755B7300B4BB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyHeart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuhuixia.FlyHeart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB64BF411D755B7300B4BB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlyHeartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XingboTV.FlyHeartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyHeart.app/FlyHeart";
+			};
+			name = Debug;
+		};
+		FB64BF421D755B7300B4BB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlyHeartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XingboTV.FlyHeartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyHeart.app/FlyHeart";
+			};
+			name = Release;
+		};
+		FB64BF441D755B7300B4BB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlyHeartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XingboTV.FlyHeartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlyHeart;
+			};
+			name = Debug;
+		};
+		FB64BF451D755B7300B4BB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlyHeartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XingboTV.FlyHeartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlyHeart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB64BF0B1D755B7300B4BB9C /* Build configuration list for PBXProject "FlyHeart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB64BF3B1D755B7300B4BB9C /* Debug */,
+				FB64BF3C1D755B7300B4BB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB64BF3D1D755B7300B4BB9C /* Build configuration list for PBXNativeTarget "FlyHeart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB64BF3E1D755B7300B4BB9C /* Debug */,
+				FB64BF3F1D755B7300B4BB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB64BF401D755B7300B4BB9C /* Build configuration list for PBXNativeTarget "FlyHeartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB64BF411D755B7300B4BB9C /* Debug */,
+				FB64BF421D755B7300B4BB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB64BF431D755B7300B4BB9C /* Build configuration list for PBXNativeTarget "FlyHeartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB64BF441D755B7300B4BB9C /* Debug */,
+				FB64BF451D755B7300B4BB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB64BF081D755B7300B4BB9C /* Project object */;
+}
